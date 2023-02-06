@@ -20,13 +20,9 @@
  img{
     max-width: 100%;
     height: auto;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
  }
- .art-img{
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-} 
 .main-section{
     background-color: #ffffff;
     width:20rem;
@@ -34,8 +30,8 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-top: 2.5rem;
-    
+    border-radius: 20px;
+    box-shadow: 12px 12px 12px rgba(0,0 ,0,0.2);
     
  }
 .header-title{
@@ -53,25 +49,19 @@
     
 }
 .btn-to-pay{
-    
-    
-    width:100%;
-    height: auto;
-   
-    
-    border-radius: 12px;
-    
+     width:100%;
 }
 .pay{
-    background-color: red;
+    color: hsl(225, 100%, 98%);
     width: 80%;
     border: 2px solid hsl(245, 75%, 52%);
     display: block;
-    margin: 2rem auto;
-    padding: 5rem auto;
+    margin: 1rem auto;
+    padding-top:1rem ;
+    padding-bottom: 1rem;
     text-align: center;
-    /* background-color:hsl(245, 75%, 52%); */
-    border-radius:12px;
+    background-color:hsl(245, 75%, 52%);
+    border-radius: 12px;
     font-weight: 700;
 }
 .cancel{
